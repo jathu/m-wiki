@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "m-wiki",
+	"description": "automatically redirects wikipedia to the mobile version.",
+	"author": "Jathu Satkunarajah",
+	"version": "1.0",
+	"permissions": [
+		"http://*.wikipedia.org/wiki/*",
+		"https://*.wikipedia.org/wiki/*"
+	],
+	"content_scripts": [{
+		"run_at": "document_start",
+		"matches": [
+			"http://*.wikipedia.org/wiki/*",
+			"https://*.wikipedia.org/wiki/*"
+		],
+		"css": [
+			"style.css"
+		],
+		"js": [
+			"script.js"
+		]
+	}],
+	"icons": {
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	}
+}
