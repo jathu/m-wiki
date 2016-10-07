@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 	"name": "m-wiki",
-	"description": "automatically redirects wikipedia to the mobile version.",
+	"description": "Automatically redirects Wikipedia to the mobile version.",
 	"author": "Jathu Satkunarajah",
-	"version": "1.0",
+	"version": "2.0",
 	"permissions": [
 		"http://*.wikipedia.org/wiki/*",
 		"https://*.wikipedia.org/wiki/*"

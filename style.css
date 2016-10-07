@@ -1,3 +1,4 @@
-* {
+*, body {
 	outline: none !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue","Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif !important;
 }
