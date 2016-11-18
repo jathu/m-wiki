@@ -1,4 +1,4 @@
-var http = window.location.href, position = http.indexOf("m.wikipedia");
+var http = window.location.href, position = http.indexOf(".m.wikipedia");
 
 if(position < 0) {
 	position = http.indexOf(".wikipedia");
