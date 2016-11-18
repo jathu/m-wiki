@@ -3,17 +3,12 @@
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue","Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif !important;
 }
 
-i, em {
-	display: inline-block;
-}
-
 body .times-serif,
 body .texhtml,
 body .texhtml i,
-body .texhtml em,
-i::first-letter {
+body .texhtml em {
 	font-family: serif !important;
-	font-size: large;
+	font-size: larger;
 	font-weight: bold;
 }
 
