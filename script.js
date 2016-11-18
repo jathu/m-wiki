@@ -1,4 +1,4 @@
-var url = window.location.href;
+const url = window.location.href;
 
-if(url.indexOf(".m.wikipedia") < 0)
-	window.location.href = url.replace(".wikipedia", "m.wikipedia");
+if(!url.includes(".m.wikipedia"))
+	window.location.href = url.replace(".wikipedia", ".m.wikipedia");
