@@ -2,3 +2,23 @@
 	outline: none !important;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue","Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif !important;
 }
+
+body .times-serif,
+body .texhtml,
+body .texhtml i,
+body .texhtml em {
+	font-family: serif !important;
+	font-size: larger;
+	font-weight: bold;
+}
+
+pre, pre *,
+code, code * {
+	font-family: "SFMono", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    *, body {
+    	-webkit-font-smoothing: antialiased;
+    }
+}
