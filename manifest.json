@@ -3,7 +3,7 @@
 	"name": "m-wiki",
 	"description": "Automatically redirects Wikipedia to the mobile version.",
 	"author": "Jathu Satkunarajah",
-	"version": "2.0",
+	"version": "2.1",
 	"permissions": [
 		"http://*.wikipedia.org/wiki/*",
 		"https://*.wikipedia.org/wiki/*"
